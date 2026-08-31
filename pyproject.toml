@@ -1,5 +1,5 @@
 [project]
-name = "fantasy-football-draft"
+name = "fantasy-football-copilot"
 version = "0.1.0"
 description = "MCP servers that let Claude help draft your Yahoo and ESPN fantasy football teams"
 readme = "README.md"
