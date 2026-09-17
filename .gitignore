@@ -11,3 +11,4 @@ dist/
 build/
 token.json
 private.json
+*.local.md
