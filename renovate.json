@@ -2,5 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>patrickjmcd/renovate-config"
+  ],
+  "packageRules": [
+    {
+      "description": "Stay on mcp 1.x: servers use the 1.x FastMCP API, which 2.x removed (renamed to MCPServer). Migrate deliberately.",
+      "matchPackageNames": ["mcp"],
+      "matchUpdateTypes": ["major"],
+      "enabled": false
+    }
   ]
 }
